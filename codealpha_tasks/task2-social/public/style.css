@@ -1,0 +1,13 @@
+*{box-sizing:border-box}body{margin:0;font-family:system-ui,sans-serif;background:#eef1f5;color:#222}
+header{display:flex;justify-content:space-between;align-items:center;background:#4f46e5;color:#fff;padding:12px 20px;position:sticky;top:0}
+header a{color:#fff;text-decoration:none;margin-left:14px}.logo{font-size:1.3rem;font-weight:700;margin:0}
+main{max-width:620px;margin:20px auto;padding:0 12px}
+.box{background:#fff;border-radius:12px;padding:14px 16px;margin-bottom:12px;box-shadow:0 1px 4px #0001}
+.meta{color:#6b7280;font-size:.85rem}.user{font-weight:700;color:#4f46e5;text-decoration:none}
+button{background:#4f46e5;color:#fff;border:0;padding:7px 14px;border-radius:8px;cursor:pointer;font-size:.95rem}
+button.ghost{background:transparent;color:#374151;padding:4px 8px}button.liked{color:#dc2626}
+button.alt{background:#e5e7eb;color:#222}
+input,textarea{width:100%;padding:9px;margin:6px 0 10px;border:1px solid #ccc;border-radius:8px;font:inherit}
+.tabs{display:flex;gap:8px;margin-bottom:12px}.err{color:#dc2626}
+.actions{display:flex;gap:6px;margin-top:6px;align-items:center}.cm{border-top:1px solid #eee;padding:6px 0;font-size:.92rem}
+.stats{display:flex;gap:18px;margin:8px 0}
